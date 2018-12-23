@@ -3,6 +3,7 @@
     "displayName": "California Soul",
     "description": "A theme for the continuous spirit of hard work and diligence 🔥",
     "publisher": "islas",
+    "icon": "img/california-soul-logo.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.30.0"
@@ -18,13 +19,11 @@
         "start": "nodemon --exec vsce package"
     },
     "contributes": {
-        "themes": [
-            {
-                "label": "California Rush",
-                "uiTheme": "vs-dark",
-                "path": "./themes/california-rush.json"
-            }
-        ]
+        "themes": [{
+            "label": "California Rush",
+            "uiTheme": "vs-dark",
+            "path": "./themes/california-soul.json"
+        }]
     },
     "dependencies": {
         "nodemon": "^1.18.9",
