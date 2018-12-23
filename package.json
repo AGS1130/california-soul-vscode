@@ -1,0 +1,33 @@
+{
+    "name": "california-soul",
+    "displayName": "California Soul",
+    "description": "A theme for the continuous spirit of hard work and diligence 🔥",
+    "publisher": "islas",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes"
+    ],
+    "scripts": {
+        "start": "nodemon --exec vsce package"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "California Rush",
+                "uiTheme": "vs-dark",
+                "path": "./themes/california-rush.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "nodemon": "^1.18.9",
+        "vsce": "^1.54.0"
+    }
+}
