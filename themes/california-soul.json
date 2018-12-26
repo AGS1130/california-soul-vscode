@@ -328,7 +328,7 @@
             "name": "Meta",
             "scope": "meta",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
@@ -377,7 +377,7 @@
             "name": "String",
             "scope": ["string", "punctuation.definition.string"],
             "settings": {
-                "foreground": "#a5ff90"
+                "foreground": "#fda742" // rgb(253, 167, 66)
             }
         },
         {
@@ -433,14 +433,14 @@
             "name": "[CSS] - Element Selector",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#9EFFFF"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[CSS] - Support",
             "scope": ["source.css support", "source.stylus support"],
             "settings": {
-                "foreground": "#a5ff90"
+                "foreground": "#fda742" // rgb(253, 167, 66)
             }
         },
         {
@@ -471,21 +471,21 @@
             "name": "[CSS] - Variable",
             "scope": ["source.css variable", "source.stylus variable"],
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[HTML] - Entity Name",
             "scope": "text.html.basic entity.name",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[HTML] - ID value",
             "scope": "meta.toc-list.id.html",
             "settings": {
-                "foreground": "#A5FF90"
+                "foreground": "#fda742" // rgb(253, 167, 66)
             }
         },
         {
@@ -621,7 +621,7 @@
             "scope": "markup.quote.markdown meta.paragraph.markdown",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
@@ -636,7 +636,7 @@
             "scope": "markup.bold.markdown",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
@@ -644,7 +644,7 @@
             "scope": "markup.italic.markdown",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
@@ -658,7 +658,7 @@
             "name": "[MARKDOWN] - Link Title",
             "scope": "string.other.link.title.markdown",
             "settings": {
-                "foreground": "#a5ff90"
+                "foreground": "#fda742" // rgb(253, 167, 66)
             }
         },
         {
@@ -669,7 +669,7 @@
                 "string.other.link.description.title.markdown"
             ],
             "settings": {
-                "foreground": "#a5ff90"
+                "foreground": "#fda742" // rgb(253, 167, 66)
             }
         },
         {
@@ -679,28 +679,28 @@
                 "markup.underline.link.image.markdown"
             ],
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[MARKDOWN] - Inline Code",
             "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[MARKDOWN] - Code Block",
             "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[PUG] - Entity Name",
             "scope": "text.jade entity.name",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
@@ -749,14 +749,14 @@
             "name": "[TYPESCRIPT] - Storage",
             "scope": "source.ts storage",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[PHP] - Entity",
             "scope": "source.php entity",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
@@ -770,14 +770,14 @@
             "name": "[C#] - Annotations",
             "scope": "storage.type.cs",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
             "name": "[C#] - Properties",
             "scope": "entity.name.variable.property.cs",
             "settings": {
-                "foreground": "#9effff"
+                "foreground": "#ff7864" // rgb(255, 120, 100)
             }
         },
         {
