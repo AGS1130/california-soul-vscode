@@ -4,9 +4,9 @@
     "type": "dark",
     "colors": {
         // activityBar
-        "activityBar.background": "#122738", //rgb(18,39,56)
-        "activityBar.border": "#0d3a58", // rgb(13,58,88)
-        "activityBar.dropBackground": "#0d3a58", // rgb(13,58,88)
+        "activityBar.background": "#110000", // rgb(17,0,0)
+        "activityBar.border": "#440000", // rgb(68,0,0)
+        "activityBar.dropBackground": "#440000", // rgb(68,0,0)
         "activityBar.foreground": "#fff",
         "activityBarBadge.background": "#ffc600",
         "activityBarBadge.foreground": "#000",
@@ -14,16 +14,16 @@
         "badge.background": "#ffc600",
         "badge.foreground": "#000",
         // button
-        "button.background": "#0088ff", // rgb(0,136,255)
+        "button.background": "#ff0032", // rgb(255,0,50)
         "button.foreground": "#fff",
         "button.hoverBackground": "#ff9d00",
         // contrast
         "contrastActiveBorder": null,
         "contrastBorder": "#ffffff00",
         // debug
-        "debugExceptionWidget.background": "#193549", // rgb(25,53,73)
+        "debugExceptionWidget.background": "#220000", // rgb(34,0,0)
         "debugExceptionWidget.border": "#aaa",
-        "debugToolBar.background": "#193549", // rgb(25,53,73)
+        "debugToolBar.background": "#220000", // rgb(34,0,0)
         // description
         "descriptionForeground": "#aaa",
         // diff
@@ -32,12 +32,12 @@
         "diffEditor.removedTextBackground": "#ee3a4333",
         "diffEditor.removedTextBorder": "#ee3a4355",
         // dropdown
-        "dropdown.background": "#193549", // rgb(25,53,73)
-        "dropdown.border": "#15232d", // rgb(21,35,45)
+        "dropdown.background": "#220000", // rgb(34,0,0)
+        "dropdown.border": "#000000", // rgb(0,0,0)
         "dropdown.foreground": "#fff",
         // editor
         // This is the main background color
-        "editor.background": "#193549", // rgb(25,53,73)
+        "editor.background": "#220000", // rgb(34,0,0)
         // this is the main text colour
         "editor.foreground": "#fff",
         // Okay this part is confusing as heck!
@@ -46,20 +46,20 @@
         // Other Found Items int the document
         "editor.findMatchHighlightBackground": "#CAD40F66",
         // WTF is this one for? I don't know
-        "editor.findRangeHighlightBackground": "#243e51", // rgb(36,62,81)
+        "editor.findRangeHighlightBackground": "#560000", // rgb(88,0,0)
         // When you hover over something and a popup shows, this highlights that thing
         "editor.hoverHighlightBackground": "#ffc60033",
         // when you have something selected, but have lost focus on the editor
-        "editor.inactiveSelectionBackground": "#003b8b", // rgb(0,59,139)
+        "editor.inactiveSelectionBackground": "#d20f23", // rgb(210,15,35)
         // current line styles
-        "editor.lineHighlightBackground": "#1f4662", // rgb(31,70,98)
-        "editor.lineHighlightBorder": "#234e6d", // rgb(35,78,109)
-        "editor.rangeHighlightBackground": "#1f4662", // rgb(31,70,98)
+        "editor.lineHighlightBackground": "#96283c", // rgb(150,40,60)
+        "editor.lineHighlightBorder": "#8c5064", // rgb(140,80,100)
+        "editor.rangeHighlightBackground": "#96283c", // rgb(150,40,60)
         // selected Text colours
         // This is the standard Select colour
-        "editor.selectionBackground": "#0050a4", // rgb(0,80,164)
+        "editor.selectionBackground": "#b40000", // rgb(180,0,0)
         // This is the colour of the other matching elements
-        "editor.selectionHighlightBackground": "#0050A480", // rgb(0,80,164, 0.5)
+        "editor.selectionHighlightBackground": "#b4000080", // rgb(180,0,0, 0.5)
         // if you tab away you can colour it differently, but ill leave this one out
         // "editor.inactiveSelectionBackground": "",
         // Word Highlights! This happens when you move your cursor inside a variable
@@ -67,218 +67,218 @@
         "editor.wordHighlightStrongBackground": "#ffffff21",
         // and this one is the rest of them
         "editor.wordHighlightBackground": "#ffffff21",
-        "editorBracketMatch.background": "#0d3a58", // rgb(13,58,88)
+        "editorBracketMatch.background": "#440000", // rgb(68,0,0)
         "editorBracketMatch.border": "#ffc60080",
         "editorCodeLens.foreground": "#aaa",
         "editorCursor.foreground": "#ffc600",
-        "editorError.border": "#0d3a58", // rgb(13,58,88)
+        "editorError.border": "#440000", // rgb(68,0,0)
         "editorError.foreground": "#A22929",
         // gutter
-        "editorGutter.background": "#12273866", //rgb(18,39,56, 0.3)
+        "editorGutter.background": "#11000066", //rgb(17,0,0, 0.3)
         "editorGutter.addedBackground": "#3C9F4A",
         "editorGutter.deletedBackground": "#A22929",
-        "editorGutter.modifiedBackground": "#26506D", // rgb(38,80,109)
+        "editorGutter.modifiedBackground": "#8c506e", // rgb(140,80,110)
         // editorGroup
         "editorGroup.background": "#A22929",
-        "editorGroup.border": "#122738", //rgb(18,39,56)
-        "editorGroup.dropBackground": "#12273899", //rgb(18,39,56, 0.6)
+        "editorGroup.border": "#110000", // rgb(17,0,0)
+        "editorGroup.dropBackground": "#11000099", //rgb(17,0,0, 0.6)
         // editorGroupHeader
-        "editorGroupHeader.noTabsBackground": "#193549", // rgb(25,53,73)
-        "editorGroupHeader.tabsBackground": "#193549", // rgb(25,53,73)
-        "editorGroupHeader.tabsBorder": "#15232d", // rgb(21,35,45)
+        "editorGroupHeader.noTabsBackground": "#220000", // rgb(34,0,0)
+        "editorGroupHeader.tabsBackground": "#220000", // rgb(34,0,0)
+        "editorGroupHeader.tabsBorder": "#000000", // rgb(0,0,0)
         // editorHoverWidget
-        "editorHoverWidget.background": "#15232d", // rgb(21,35,45)
-        "editorHoverWidget.border": "#0d3a58", // rgb(13,58,88)
-        "editorIndentGuide.background": "#3b5364", // rgb(59,83,100)
+        "editorHoverWidget.background": "#000000", // rgb(0,0,0)
+        "editorHoverWidget.border": "#440000", // rgb(68,0,0)
+        "editorIndentGuide.background": "#b45064", // rgb(180,80,100)
         "editorLineNumber.foreground": "#aaa",
         "editorLink.activeForeground": "#aaa",
         // editorMarkerNavigation
-        "editorMarkerNavigation.background": "#3B536433", // rgb(59,83,100, .19)
+        "editorMarkerNavigation.background": "#b4506433", // rgb(180,80,100, .19)
         "editorMarkerNavigationError.background": "#A22929",
         "editorMarkerNavigationWarning.background": "#ffc600",
         // ruler
-        "editorOverviewRuler.border": "#0d3a58", // rgb(13,58,88)
+        "editorOverviewRuler.border": "#440000", // rgb(68,0,0)
         "editorOverviewRuler.commonContentForeground": "#ffc60055",
         "editorOverviewRuler.currentContentForeground": "#ee3a4355",
         "editorOverviewRuler.incomingContentForeground": "#3ad90055",
-        "editorRuler.foreground": "#1f4662", // rgb(31,70,98)
+        "editorRuler.foreground": "#96283c", // rgb(150,40,60)
         // editorSuggestWidget
-        "editorSuggestWidget.background": "#15232d", // rgb(21,35,45)
-        "editorSuggestWidget.border": "#15232d", // rgb(21,35,45)
+        "editorSuggestWidget.background": "#000000", // rgb(0,0,0)
+        "editorSuggestWidget.border": "#000000", // rgb(0,0,0)
         "editorSuggestWidget.foreground": "#aaa",
         "editorSuggestWidget.highlightForeground": "#ffc600",
-        "editorSuggestWidget.selectedBackground": "#193549", // rgb(25,53,73)
+        "editorSuggestWidget.selectedBackground": "#220000", // rgb(34,0,0)
         // editorWarning
         "editorWarning.border": "#ffffff00",
         "editorWarning.foreground": "#ffc600",
         "editorWhitespace.foreground": "#ffffff1a",
-        "editorWidget.background": "#15232d", // rgb(21,35,45)
-        "editorWidget.border": "#0d3a58", // rgb(13,58,88)
+        "editorWidget.background": "#000000", // rgb(0,0,0)
+        "editorWidget.border": "#440000", // rgb(68,0,0)
         "errorForeground": "#A22929",
         // extensionButton
-        "extensionButton.prominentBackground": "#0088ff", // rgb(0,136,255)
+        "extensionButton.prominentBackground": "#ff0032", // rgb(255,0,50)
         "extensionButton.prominentForeground": "#fff",
         "extensionButton.prominentHoverBackground": "#ff9d00",
-        "focusBorder": "#0d3a58", // rgb(13,58,88)
+        "focusBorder": "#440000", // rgb(68,0,0)
         "foreground": "#aaa",
         // input
-        "input.background": "#193549", // rgb(25,53,73)
-        "input.border": "#0d3a58", // rgb(13,58,88)
+        "input.background": "#220000", // rgb(34,0,0)
+        "input.border": "#440000", // rgb(68,0,0)
         "input.foreground": "#ffc600",
         "input.placeholderForeground": "#aaa",
         "inputOption.activeBorder": "#8dffff",
-        "inputValidation.errorBackground": "#193549", // rgb(25,53,73)
+        "inputValidation.errorBackground": "#220000", // rgb(34,0,0)
         "inputValidation.errorBorder": "#ffc600",
-        "inputValidation.infoBackground": "#193549", // rgb(25,53,73)
-        "inputValidation.infoBorder": "#0d3a58", // rgb(13,58,88)
-        "inputValidation.warningBackground": "#193549", // rgb(25,53,73)
+        "inputValidation.infoBackground": "#220000", // rgb(34,0,0)
+        "inputValidation.infoBorder": "#440000", // rgb(68,0,0)
+        "inputValidation.warningBackground": "#220000", // rgb(34,0,0)
         "inputValidation.warningBorder": "#ffc600",
         // list
-        "list.activeSelectionBackground": "#193549", // rgb(25,53,73)
+        "list.activeSelectionBackground": "#220000", // rgb(34,0,0)
         "list.activeSelectionForeground": "#aaa",
-        "list.dropBackground": "#0d3a58", // rgb(13,58,88)
-        "list.focusBackground": "#0d3a58", // rgb(13,58,88)
+        "list.dropBackground": "#440000", // rgb(68,0,0)
+        "list.focusBackground": "#440000", // rgb(68,0,0)
         "list.focusForeground": "#aaa",
         "list.highlightForeground": "#ffc600",
-        "list.hoverBackground": "#193549", // rgb(25,53,73)
+        "list.hoverBackground": "#220000", // rgb(34,0,0)
         "list.hoverForeground": "#aaa",
-        "list.inactiveSelectionBackground": "#0d3a58", // rgb(13,58,88)
+        "list.inactiveSelectionBackground": "#440000", // rgb(68,0,0)
         "list.inactiveSelectionForeground": "#aaa",
         // menu
-        "menu.background": "#122738", //rgb(18,39,56)
+        "menu.background": "#110000", // rgb(17,0,0)
         // merge
         "merge.border": "#ffffff00",
         "merge.commonContentBackground": "#c97d0c",
         "merge.commonHeaderBackground": "#c97d0c",
         "merge.currentContentBackground": "#2F7366", // rgb(47,115,102)
         "merge.currentHeaderBackground": "#2F7366", // rgb(47,115,102)
-        "merge.incomingContentBackground": "#185294", // rgb(24,82,148)
-        "merge.incomingHeaderBackground": "#185294", // rgb(24,82,148)
+        "merge.incomingContentBackground": "#aa111a", // rgb(170,17,26)
+        "merge.incomingHeaderBackground": "#aa111a", // rgb(170,17,26)
         // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
         "notificationCenter.border": "#ffc600",
         "notificationCenterHeader.foreground": "#aaa",
-        "notificationCenterHeader.background": "#122738", //rgb(18,39,56)
+        "notificationCenterHeader.background": "#110000", // rgb(17,0,0)
         "notificationToast.border": "#ffc600",
         "notifications.foreground": "#aaa",
-        "notifications.background": "#122738", //rgb(18,39,56)
+        "notifications.background": "#110000", // rgb(17,0,0)
         "notifications.border": "#ffc600",
         "notificationLink.foreground": "#ffc600",
         // notification - If you target VS Code versions before the 1.21 (February 2018) release, these are the old (no longer supported) colors:
         "notification.background": "#ffc600",
-        "notification.buttonBackground": "#0088ff", // rgb(0,136,255)
+        "notification.buttonBackground": "#ff0032", // rgb(255,0,50)
         "notification.buttonForeground": "#fff",
         "notification.buttonHoverBackground": "#ff9d00",
         "notification.errorBackground": "#A22929",
         "notification.errorForeground": "#fff",
         "notification.foreground": "#000",
-        "notification.infoBackground": "#0088ff", // rgb(0,136,255)
+        "notification.infoBackground": "#ff0032", // rgb(255,0,50)
         "notification.infoForeground": "#fff",
         "notification.warningBackground": "#ff9d00",
         "notification.warningForeground": "#000",
         // panel
-        "panel.background": "#122738", //rgb(18,39,56)
+        "panel.background": "#110000", // rgb(17,0,0)
         "panel.border": "#ffc600",
         "panelTitle.activeBorder": "#ffc600",
         "panelTitle.activeForeground": "#ffc600",
         "panelTitle.inactiveForeground": "#aaa",
         // "peekView
         "peekView.border": "#ffc600",
-        "peekViewEditor.background": "#193549", // rgb(25,53,73)
-        "peekViewEditor.matchHighlightBackground": "#19354900", // rgb(25,53,73, 0)
-        "peekViewEditorGutter.background": "#122738", //rgb(18,39,56)
-        "peekViewResult.background": "#15232d", // rgb(21,35,45)
+        "peekViewEditor.background": "#220000", // rgb(34,0,0)
+        "peekViewEditor.matchHighlightBackground": "#22000000", // rgb(34,0,0, 0)
+        "peekViewEditorGutter.background": "#110000", // rgb(17,0,0)
+        "peekViewResult.background": "#000000", // rgb(0,0,0)
         "peekViewResult.fileForeground": "#aaa",
         "peekViewResult.lineForeground": "#fff",
-        "peekViewResult.matchHighlightBackground": "#0d3a58", // rgb(13,58,88)
-        "peekViewResult.selectionBackground": "#0d3a58", // rgb(13,58,88)
+        "peekViewResult.matchHighlightBackground": "#440000", // rgb(68,0,0)
+        "peekViewResult.selectionBackground": "#440000", // rgb(68,0,0)
         "peekViewResult.selectionForeground": "#fff",
-        "peekViewTitle.background": "#15232d", // rgb(21,35,45)
+        "peekViewTitle.background": "#000000", // rgb(0,0,0)
         "peekViewTitleDescription.foreground": "#aaa",
         "peekViewTitleLabel.foreground": "#ffc600",
         // picker
-        "pickerGroup.border": "#0d3a58", // rgb(13,58,88)
+        "pickerGroup.border": "#440000", // rgb(68,0,0)
         "pickerGroup.foreground": "#aaa",
         // progressBar
         "progressBar.background": "#ffc600",
         // scrollbar
         "scrollbar.shadow": "#00000000",
-        "scrollbarSlider.activeBackground": "#355166cc", // rgb(53,81,102, 0.8)
-        "scrollbarSlider.background": "#1F466280", // rgb(31,70,98, 0.5)
-        "scrollbarSlider.hoverBackground": "#406179cc", // rgb(64,97,121 0.8)
+        "scrollbarSlider.activeBackground": "#a05064cc", // rgb(160,80,100, 0.8)
+        "scrollbarSlider.background": "#96283c80", // rgb(150,40,60, 0.5)
+        "scrollbarSlider.hoverBackground": "#c8646ecc", // rgb(200,100,110 0.8)
         // selection
-        "selection.background": "#027dff", // rgb(2,125,255)
+        "selection.background": "#ff000b", // rgb(255,0,11)
         // sidebar
-        "sideBar.background": "#15232d", // rgb(21,35,45)
-        "sideBar.border": "#0d3a58", // rgb(13,58,88)
+        "sideBar.background": "#000000", // rgb(0,0,0)
+        "sideBar.border": "#440000", // rgb(68,0,0)
         "sideBar.foreground": "#aaa",
-        "sideBarSectionHeader.background": "#193549", // rgb(25,53,73)
+        "sideBarSectionHeader.background": "#220000", // rgb(34,0,0)
         "sideBarSectionHeader.foreground": "#aaaaaa",
         "sideBarTitle.foreground": "#aaaaaa",
         // statusBar
-        "statusBar.background": "#15232d", // rgb(21,35,45)
-        "statusBar.border": "#0d3a58", // rgb(13,58,88)
-        "statusBar.debuggingBackground": "#15232d", // rgb(21,35,45)
+        "statusBar.background": "#000000", // rgb(0,0,0)
+        "statusBar.border": "#440000", // rgb(68,0,0)
+        "statusBar.debuggingBackground": "#000000", // rgb(0,0,0)
         "statusBar.debuggingBorder": "#ffc600",
         "statusBar.debuggingForeground": "#ffc600",
         "statusBar.foreground": "#aaa",
-        "statusBar.noFolderBackground": "#15232d", // rgb(21,35,45)
-        "statusBar.noFolderBorder": "#0d3a58", // rgb(13,58,88)
+        "statusBar.noFolderBackground": "#000000", // rgb(0,0,0)
+        "statusBar.noFolderBorder": "#440000", // rgb(68,0,0)
         "statusBar.noFolderForeground": "#aaa",
-        "statusBarItem.activeBackground": "#0088ff", // rgb(0,136,255)
-        "statusBarItem.hoverBackground": "#0d3a58", // rgb(13,58,88)
-        "statusBarItem.prominentBackground": "#15232d", // rgb(21,35,45)
-        "statusBarItem.prominentHoverBackground": "#0d3a58", // rgb(13,58,88)
+        "statusBarItem.activeBackground": "#ff0032", // rgb(255,0,50)
+        "statusBarItem.hoverBackground": "#440000", // rgb(68,0,0)
+        "statusBarItem.prominentBackground": "#000000", // rgb(0,0,0)
+        "statusBarItem.prominentHoverBackground": "#440000", // rgb(68,0,0)
         // tab
-        "tab.activeBackground": "#122738", //rgb(18,39,56)
+        "tab.activeBackground": "#110000", // rgb(17,0,0)
         "tab.activeForeground": "#fff",
-        "tab.border": "#15232d", // rgb(21,35,45)
+        "tab.border": "#000000", // rgb(0,0,0)
         "tab.activeBorder": "#ffc600",
-        "tab.inactiveBackground": "#193549", // rgb(25,53,73)
+        "tab.inactiveBackground": "#220000", // rgb(34,0,0)
         "tab.inactiveForeground": "#aaa",
         "tab.unfocusedActiveForeground": "#aaa",
         "tab.unfocusedInactiveForeground": "#aaa",
         // --- workbench: terminal
         "terminal.ansiBlack": "#000000",
-        "terminal.ansiRed": "#ff628c",
+        "terminal.ansiRed": "#ff0032", // rgb(255,0,50)
         "terminal.ansiGreen": "#3ad900",
         "terminal.ansiYellow": "#ffc600",
         "terminal.ansiBlue": "#0088ff", // rgb(0,136,255)
         "terminal.ansiMagenta": "#fb94ff",
         "terminal.ansiCyan": "#80fcff",
         "terminal.ansiWhite": "#ffffff",
-        "terminal.ansiBrightBlack": "#0050a4", // rgb(0,80,164)
-        "terminal.ansiBrightRed": "#ff628c",
+        "terminal.ansiBrightBlack": "#b40000", // rgb(180,0,0)
+        "terminal.ansiBrightRed": "#ff0050", // rgb(255,0,80)
         "terminal.ansiBrightGreen": "#3ad900",
         "terminal.ansiBrightYellow": "#ffc600",
         "terminal.ansiBrightBlue": "#0088ff", // rgb(0,136,255)
         "terminal.ansiBrightMagenta": "#fb94ff",
         "terminal.ansiBrightCyan": "#80fcff",
-        "terminal.ansiBrightWhite": "#193549", // rgb(25,53,73)
-        "terminal.background": "#122738", //rgb(18,39,56)
+        "terminal.ansiBrightWhite": "#220000", // rgb(34,0,0)
+        "terminal.background": "#110000", // rgb(17,0,0)
         "terminal.foreground": "#ffffff",
         "terminalCursor.background": "#ffc600",
         "terminalCursor.foreground": "#ffc600",
         // Git status colors in File Explorer
         "gitDecoration.modifiedResourceForeground": "#ffc600",
-        "gitDecoration.deletedResourceForeground": "#ff628c",
+        "gitDecoration.deletedResourceForeground": "#ff0032", // rgb(255,0,50)
         "gitDecoration.untrackedResourceForeground": "#3ad900",
         "gitDecoration.ignoredResourceForeground": "#747476",
         "gitDecoration.conflictingResourceForeground": "#FF7200",
         // textBlockQuote
-        "textBlockQuote.background": "#193549", // rgb(25,53,73)
-        "textBlockQuote.border": "#0088ff", // rgb(0,136,255)
-        "textCodeBlock.background": "#193549", // rgb(25,53,73)
-        "textLink.activeForeground": "#0088ff", // rgb(0,136,255)
-        "textLink.foreground": "#0088ff", // rgb(0,136,255)
+        "textBlockQuote.background": "#220000", // rgb(34,0,0)
+        "textBlockQuote.border": "#ff0032", // rgb(255,0,50)
+        "textCodeBlock.background": "#220000", // rgb(34,0,0)
+        "textLink.activeForeground": "#ff0032", // rgb(255,0,50)
+        "textLink.foreground": "#ff0032", // rgb(255,0,50)
         "textPreformat.foreground": "#ffc600",
-        "textSeparator.foreground": "#0d3a58", // rgb(13,58,88)
-        "titleBar.activeBackground": "#15232d", // rgb(21,35,45)
+        "textSeparator.foreground": "#440000", // rgb(68,0,0)
+        "titleBar.activeBackground": "#000000", // rgb(0,0,0)
         "titleBar.activeForeground": "#ffffff",
-        "titleBar.inactiveBackground": "#193549", // rgb(25,53,73)
+        "titleBar.inactiveBackground": "#220000", // rgb(34,0,0)
         "titleBar.inactiveForeground": "#ffffff33",
-        "walkThrough.embeddedEditorBackground": "#0d3a58", // rgb(13,58,88)
-        "welcomePage.buttonBackground": "#193549", // rgb(25,53,73)
-        "welcomePage.buttonHoverBackground": "#0d3a58", // rgb(13,58,88)
+        "walkThrough.embeddedEditorBackground": "#440000", // rgb(68,0,0)
+        "welcomePage.buttonBackground": "#220000", // rgb(34,0,0)
+        "welcomePage.buttonHoverBackground": "#440000", // rgb(68,0,0)
         "widget.shadow": "#00000026"
     },
     "tokenColors": [{
@@ -286,14 +286,14 @@
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#0088ff" // rgb(0,136,255)
+                "foreground": "#ff0050", // rgb(255,0,80)
             }
         },
         {
             "name": "Constant",
             "scope": "constant",
             "settings": {
-                "foreground": "#ff628c"
+                "foreground": "#ff0032", // rgb(255,0,50)
             }
         },
         {
